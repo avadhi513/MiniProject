@@ -1,0 +1,203 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 42656970799,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser",
+            "match": {
+              "location": "LoginSteps.launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.stepdefinition.LoginSteps.user_Clicks_on_Login_button(LoginSteps.java:40)\r\n\tat ✽.user Clicks on Login button(src/test/resources/Features/BHome.feature:6)\r\n",
+              "duration": 12940417200,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "user Clicks on Login button",
+            "match": {
+              "location": "LoginSteps.user_Clicks_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27200,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Enters Phone Number",
+            "match": {
+              "location": "LoginSteps.enters_Phone_Number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 812401,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Clicks on I have Passowrd",
+            "match": {
+              "location": "LoginSteps.clicks_on_I_have_Passowrd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17900,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Enters the Password",
+            "match": {
+              "location": "LoginSteps.enters_the_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Click on the Continue button",
+            "match": {
+              "location": "LoginSteps.click_on_the_Continue_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Entering details for searching on Home Page",
+        "description": "",
+        "id": "setting-details-in-the-nobroker-website;entering-details-for-searching-on-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13201,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "HomeSteps.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11800,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user selects a city",
+            "match": {
+              "location": "HomeSteps.user_selects_a_city()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user selects a locality",
+            "match": {
+              "location": "HomeSteps.user_selects_a_locality()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9801,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user selects the options(pg/ flat/ house)",
+            "match": {
+              "location": "HomeSteps.user_selects_the_options_pg_flat_house()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9499,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user selects tenant type",
+            "match": {
+              "location": "HomeSteps.user_selects_tenant_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9300,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user selects room type",
+            "match": {
+              "location": "HomeSteps.user_selects_room_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10500,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user clicks on Search button.",
+            "match": {
+              "location": "HomeSteps.user_clicks_on_Search_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@asta"
+          }
+        ]
+      }
+    ],
+    "name": "Setting details in the NoBroker website",
+    "description": "",
+    "id": "setting-details-in-the-nobroker-website",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/BHome.feature",
+    "tags": [
+      {
+        "name": "@asta",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
